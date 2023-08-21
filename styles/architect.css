@@ -98,3 +98,40 @@ nav li a {
 
     
 }
+
+/* <!-- feature section --> */
+ 
+.feature-section{
+    display: flex;
+    align-items: center;
+}
+.featureimages{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+margin-top: 80px;}
+    .featureshow{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .feature-title{
+        font-size: 2.8rem;
+    }
+    .quiclist{
+        color: #727272;
+        font-weight: 500;
+
+    }
+
+    .Featurestext{
+        color: #FF900E;
+        font-weight: 700;
+    }
+
+    .featuredescription{
+        font-size: 16px;
+        color:  #727272;
+        margin-top: 32px;
+        margin-bottom: 24px;
+    }
+
